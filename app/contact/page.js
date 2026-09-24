@@ -1,15 +1,12 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
-export default function Home() {
+export default function Contact() {
   return (
     <>
       <Navbar />
-      <main>
-        <h1>Welcome to My App</h1>
-        <p>This is the home page.</p>
-      </main>
+      <h1>Contact Page</h1>
       <Footer />
     </>
-  )
+  );
 }
